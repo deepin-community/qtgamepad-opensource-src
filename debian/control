@@ -1,0 +1,90 @@
+Source: qtgamepad-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               libsdl2-dev,
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.15.3~),
+               qtbase5-private-dev (>= 5.15.3~),
+               qtdeclarative5-dev (>= 5.15.3~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.3~) <!nodoc>
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://doc.qt.io/qt-5/qtgamepad-index.html
+
+Package: libqt5gamepad5-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libqt5gamepad5 (= ${binary:Version}), ${misc:Depends}
+Description: Qt 5 gamepad module - development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development files for the gamepad module.
+
+Package: libqt5gamepad5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 gamepad module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains he gamepad module library.
+
+Package: qtgamepad5-examples
+Architecture: any
+Section: x11
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Gamepad examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 Gamepad module's examples.
+
+Package: qml-module-qtgamepad
+Architecture: any
+Multi-Arch: same
+Depends: qml-module-qtquick2, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Gamepad QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt Gamepad module provides QML types that can be used to access the
+ state of gamepad hardware that may be available on a system.
+
+Package: qtgamepad5-doc
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Gamepad QCH documentation
+ Qt Gamepad is an add-on library that enables Qt applications to support the
+ use of gamepad hardware and in some cases remote control equipment. The
+ module provides both QML and C++ interfaces. The primary target audience are
+ embedded devices with fullscreen user interfaces, and mobile applications
+ targeting TV-like form factors.
+ .
+ This package contains the documentation in QCH format, which can be viewed
+ using Qt Assistant from qt5-assistant package.
+
+Package: qtgamepad5-doc-html
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 Gamepad HTML documentation
+ Qt Gamepad is an add-on library that enables Qt applications to support the
+ use of gamepad hardware and in some cases remote control equipment. The
+ module provides both QML and C++ interfaces. The primary target audience are
+ embedded devices with fullscreen user interfaces, and mobile applications
+ targeting TV-like form factors.
+ .
+ This package contains the documentation in HTML format.

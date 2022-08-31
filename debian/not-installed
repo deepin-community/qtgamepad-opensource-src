@@ -1,0 +1,3 @@
+usr/include/*/qt5/QtGamepad/5.*
+usr/lib/*/libQt5Gamepad.la
+usr/lib/*/qt5/mkspecs/modules/qt_lib_gamepad_private.pri

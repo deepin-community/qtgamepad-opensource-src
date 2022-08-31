@@ -1,0 +1,2 @@
+usr/lib/*/libQt5Gamepad.so.*
+usr/lib/*/qt5/plugins/gamepads/*.so

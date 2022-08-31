@@ -1,0 +1,9 @@
+Document: qt5-gamepad
+Title: Qt 5 Gamepad module
+Author: The Qt Company Ltd
+Abstract: This is the HTML documentation for Qt 5 Gamepad
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/qtgamepad5-doc-html/html/qtgamepad/qtgamepad-index.html
+Files: /usr/share/doc/qtgamepad5-doc-html/html/qtgamepad/*.html

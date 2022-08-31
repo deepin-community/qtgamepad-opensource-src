@@ -1,0 +1,3 @@
+usr/lib/*/qt5/qml/QtGamepad/libdeclarative_gamepad.so
+usr/lib/*/qt5/qml/QtGamepad/plugins.qmltypes
+usr/lib/*/qt5/qml/QtGamepad/qmldir
