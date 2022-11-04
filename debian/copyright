@@ -8,7 +8,7 @@ License: LGPL-3 or GPL-2+
 
 Files: debian/*
 Copyright: 2018-2020 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-           2018-2019 Dmitry Shachnev <mitya57@debian.org>
+           2018-2022 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2+
 
 Files: examples/*

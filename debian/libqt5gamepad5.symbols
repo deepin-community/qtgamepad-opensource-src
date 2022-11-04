@@ -18,31 +18,7 @@ libQt5Gamepad.so.5 libqt5gamepad5 #MINVER#
  Qt_5.8@Qt_5.8 5.10.1
  Qt_5.9@Qt_5.9 5.10.1
  Qt_5@Qt_5 5.10.1
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend12gamepadAddedEi@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend12gamepadNamedEiRK7QString@Qt_5_PRIVATE_API 5.11.1
- _ZN15QGamepadBackend12readSettingsEi@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend12saveSettingsEiRK8QVariant@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend13configureAxisEiN15QGamepadManager11GamepadAxisE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend14axisConfiguredEiN15QGamepadManager11GamepadAxisE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend14gamepadRemovedEi@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend15configureButtonEiN15QGamepadManager13GamepadButtonE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend15setSettingsFileERK7QString@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend16buttonConfiguredEiN15QGamepadManager13GamepadButtonE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend16gamepadAxisMovedEiN15QGamepadManager11GamepadAxisEd@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend18resetConfigurationEi@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend20gamepadButtonPressedEiN15QGamepadManager13GamepadButtonEd@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend21configurationCanceledEi@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend21gamepadButtonReleasedEiN15QGamepadManager13GamepadButtonE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend21isConfigurationNeededEi@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend24setCancelConfigureButtonEiN15QGamepadManager13GamepadButtonE@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend4stopEv@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackend5startEv@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackendC1EP7QObject@Qt_5_PRIVATE_API 5.10.1
- _ZN15QGamepadBackendC2EP7QObject@Qt_5_PRIVATE_API 5.10.1
+ (symver)Qt_5_PRIVATE_API 0
  _ZN15QGamepadManager11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.10.1
  _ZN15QGamepadManager11qt_metacastEPKc@Qt_5 5.10.1
  _ZN15QGamepadManager13configureAxisEiNS_11GamepadAxisE@Qt_5 5.10.1
@@ -67,14 +43,6 @@ libQt5Gamepad.so.5 libqt5gamepad5 #MINVER#
  _ZN15QGamepadManagerD0Ev@Qt_5 5.10.1
  _ZN15QGamepadManagerD1Ev@Qt_5 5.10.1
  _ZN15QGamepadManagerD2Ev@Qt_5 5.10.1
- _ZN21QGamepadBackendPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPlugin11qt_metacastEPKc@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPlugin16staticMetaObjectE@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPluginC1EP7QObject@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPluginC2EP7QObject@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPluginD0Ev@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPluginD1Ev@Qt_5_PRIVATE_API 5.10.1
- _ZN21QGamepadBackendPluginD2Ev@Qt_5_PRIVATE_API 5.10.1
  _ZN21QGamepadKeyNavigation10setDownKeyEN2Qt3KeyE@Qt_5 5.10.1
  _ZN21QGamepadKeyNavigation10setGamepadEP8QGamepad@Qt_5 5.10.1
  _ZN21QGamepadKeyNavigation10setLeftKeyEN2Qt3KeyE@Qt_5 5.10.1
@@ -118,8 +86,6 @@ libQt5Gamepad.so.5 libqt5gamepad5 #MINVER#
  _ZN21QGamepadKeyNavigation9setActiveEb@Qt_5 5.10.1
  _ZN21QGamepadKeyNavigationC1EP7QObject@Qt_5 5.10.1
  _ZN21QGamepadKeyNavigationC2EP7QObject@Qt_5 5.10.1
- _ZN22QGamepadBackendFactory4keysERK7QString@Qt_5_PRIVATE_API 5.10.1
- _ZN22QGamepadBackendFactory6createERK7QStringRK11QStringListS2_@Qt_5_PRIVATE_API 5.10.1
  _ZN8QGamepad11nameChangedE7QString@Qt_5 5.10.1
  _ZN8QGamepad11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.10.1
  _ZN8QGamepad11qt_metacastEPKc@Qt_5 5.10.1
@@ -154,13 +120,11 @@ libQt5Gamepad.so.5 libqt5gamepad5 #MINVER#
  _ZN8QGamepadD0Ev@Qt_5 5.10.1
  _ZN8QGamepadD1Ev@Qt_5 5.10.1
  _ZN8QGamepadD2Ev@Qt_5 5.10.1
- _ZNK15QGamepadBackend10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK15QGamepadManager10metaObjectEv@Qt_5 5.10.1
  _ZNK15QGamepadManager11gamepadNameEi@Qt_5 5.11.1
  _ZNK15QGamepadManager17connectedGamepadsEv@Qt_5 5.10.1
  _ZNK15QGamepadManager18isGamepadConnectedEi@Qt_5 5.10.1
  _ZNK15QGamepadManager21isConfigurationNeededEi@Qt_5 5.10.1
- _ZNK21QGamepadBackendPlugin10metaObjectEv@Qt_5_PRIVATE_API 5.10.1
  _ZNK21QGamepadKeyNavigation10buttonAKeyEv@Qt_5 5.10.1
  _ZNK21QGamepadKeyNavigation10buttonBKeyEv@Qt_5 5.10.1
  _ZNK21QGamepadKeyNavigation10buttonXKeyEv@Qt_5 5.10.1
@@ -207,18 +171,12 @@ libQt5Gamepad.so.5 libqt5gamepad5 #MINVER#
  _ZNK8QGamepad8deviceIdEv@Qt_5 5.10.1
  _ZNK8QGamepad9axisLeftXEv@Qt_5 5.10.1
  _ZNK8QGamepad9axisLeftYEv@Qt_5 5.10.1
- _ZTI15QGamepadBackend@Qt_5_PRIVATE_API 5.10.1
  _ZTI15QGamepadManager@Qt_5 5.10.1
- _ZTI21QGamepadBackendPlugin@Qt_5_PRIVATE_API 5.10.1
  _ZTI21QGamepadKeyNavigation@Qt_5 5.10.1
  _ZTI8QGamepad@Qt_5 5.10.1
- _ZTS15QGamepadBackend@Qt_5_PRIVATE_API 5.10.1
  _ZTS15QGamepadManager@Qt_5 5.10.1
- _ZTS21QGamepadBackendPlugin@Qt_5_PRIVATE_API 5.10.1
  _ZTS21QGamepadKeyNavigation@Qt_5 5.10.1
  _ZTS8QGamepad@Qt_5 5.10.1
- _ZTV15QGamepadBackend@Qt_5_PRIVATE_API 5.10.1
  _ZTV15QGamepadManager@Qt_5 5.10.1
- _ZTV21QGamepadBackendPlugin@Qt_5_PRIVATE_API 5.10.1
  _ZTV21QGamepadKeyNavigation@Qt_5 5.10.1
  _ZTV8QGamepad@Qt_5 5.10.1
